@@ -24,3 +24,7 @@ header {
 .cart li { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 4px 0; border-bottom: 1px solid #e3eef3; }
 .minus { background: #c0392b; color: #fff; border: 0; border-radius: 4px; width: 26px; height: 26px; cursor: pointer; }
 .minus:hover { background: #962d22; }
+
+/* --- подвал --- */
+footer { background: #0b6e99; color: #fff; line-height: 1.5; }
+footer p { margin: 4px 0; }
