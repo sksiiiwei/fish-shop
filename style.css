@@ -12,3 +12,19 @@ main { display: flex; gap: 20px; max-width: 1000px; margin: 20px auto; padding: 
 .cart { flex: 0 0 260px; background: #fff; border-radius: 10px; padding: 14px; height: fit-content; box-shadow: 0 2px 6px rgba(0,0,0,.1); }
 .cart ul { padding-left: 18px; }
 footer { text-align: center; padding: 20px; color: #567; }
+
+/* --- фото --- */
+header {
+  background: linear-gradient(rgba(0,40,60,.6), rgba(0,40,60,.6)), url('images/hero.svg') center / cover, #0b6e99;
+}
+.card .photo { width: 100%; aspect-ratio: 10 / 7; height: auto; object-fit: cover; border-radius: 8px; display: block; }
+
+/* --- корзина с количеством --- */
+.cart ul { list-style: none; padding: 0; }
+.cart li { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 4px 0; border-bottom: 1px solid #e3eef3; }
+.minus { background: #c0392b; color: #fff; border: 0; border-radius: 4px; width: 26px; height: 26px; cursor: pointer; }
+.minus:hover { background: #962d22; }
+
+/* --- подвал --- */
+footer { background: #0b6e99; color: #fff; line-height: 1.5; }
+footer p { margin: 4px 0; }
